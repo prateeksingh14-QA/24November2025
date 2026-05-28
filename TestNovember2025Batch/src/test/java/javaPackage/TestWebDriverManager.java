@@ -12,13 +12,9 @@ public class TestWebDriverManager {
 	public void a() {
 		
 		WebDriverManager.edgedriver().setup();
-		WebDriver driver=new EdgeDriver();
-		
-		driver.get("https://www.google.com");
-		
+		WebDriver driver=new EdgeDriver();	
 		System.out.println("first change");
-		
-		
+	
 	}
 
 }
