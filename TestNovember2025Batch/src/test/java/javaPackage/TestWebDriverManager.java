@@ -16,6 +16,8 @@ public class TestWebDriverManager {
 		
 		driver.get("https://www.google.com");
 		
+		System.out.println("first change");
+		
 		
 	}
 
